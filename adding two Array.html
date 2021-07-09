@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adding two array</title>
+    <script>
+        //this is tried by me
+        let alibabax=[1,2,3,4,5];
+
+        let alibabay=[1,2,3,4,5];
+
+        console.log(alibabax +" "+ alibabay);
+        
+        //actual method
+        let a=[1,2,3,4,5];
+        let b=[1,2,3,4,5];
+        let store=a.concat(b)
+        console.log(store);
+        //extract
+        let hold=a.slice(0,4);
+        console.log(hold);
+        
+
+
+        //es6 type
+        let xx=[1,2,3,4,5];
+        let yy=[1,2,3,4,5];
+        let zz=[...a,...b];
+        console.log(zz);
+        let zz1=[...a,12,...b];//we can add aany value here anytype of value 
+        console.log(zz1);
+        </script>
+        
+</head>
+<body>
+    
+</body>
+</html>

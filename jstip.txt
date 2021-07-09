@@ -1,0 +1,4 @@
+1.typecoercion
+2.js is a interpreted language
+3.light weigt language ->easy
+4.embedded object->nested objcet

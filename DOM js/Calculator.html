@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+    tr,td,table{
+        border: 1px solid black;
+    }
+    table{
+        border: 2px solid blue;
+    }
+    td{
+        width:max-content;
+    }
+    button{
+        max-width: 100%;
+    }
+    </style>
+
+        <script>
+            function sent(i)
+            {
+             x=document.getElementById("showing");
+             switch(i){
+                 case 1: 
+                 x.value+=1;
+                 break;
+                 case 2: 
+                 x.value+=2;
+                 break;
+                 case 3: 
+                 x.value+=3;
+                 break;
+                 case 4: 
+                 x.value+=4;
+                 break;
+                 case 5: 
+                 x.value+=5;
+                 break;
+                 case 6: 
+                 x.value+=6;
+                 break;
+                 case 7: 
+                 x.value+=7;
+                 break;
+                 case 8: 
+                 x.value+=8;
+                 break;
+                 case 9: 
+                 x.value+=9;
+                 break;
+                 case 0: 
+                 x.value+=0;
+                 break;
+
+                 case '+': 
+                 x.value+='+';
+                 break;
+                 case '-': 
+                 x.value+='-';
+                 break;
+                 case '×': 
+                 x.value+='×';
+                 break;
+                 case '÷': 
+                 x.value+='÷';
+                 break;
+
+                 case '+': 
+                 result=eval(x.value);
+                 x.value=result;
+                 break;
+
+                 case '-': 
+                 result=eval(x.value);
+                 x.value=result;
+                 break;
+                 
+                 case '': 
+                 result=eval(x.value);
+                 x.value=result;
+                 break;
+                 
+                 case '÷': 
+                 result=eval(x.value);
+                 x.value=result;
+                 break;
+                 case '=':
+                 result=eval(x.value);
+                 x.value=result;   
+             }
+            }
+         </script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4"> <input id="showing"> </td>
+        </tr>
+       
+        <tr>
+           <td><button onclick="sent(7)">7</button></td>
+           <td><button onclick="sent(8)">8</button></td>
+           <td><button onclick="sent(9)">9</button></td>
+           <td><button onclick="sent('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="sent(6)">6</button></td>
+            <td><button onclick="sent(5)">5</button></td>
+            <td><button onclick="sent(4)">4</button></td>
+            <td><button onclick="sent('-')">+</button></td>
+         </tr>
+         <tr>
+            <td><button onclick="sent(3)">3</button></td>
+            <td><button onclick="sent(2)">2</button></td>
+            <td><button onclick="sent(1)">1</button></td>
+            <td><button onclick="sent('×')">×</button></td>
+         </tr>
+
+         <tr>
+             <td colspan="2"><button onclick="sent(0)">0</button></td>
+             <td colspan="2"><button onclick="sent('=')">=</button></td>
+         </tr>
+    </table>
+
+</body>
+</html>

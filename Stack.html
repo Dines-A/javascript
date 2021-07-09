@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack and Queue(Array methods)</title>
+    <script>
+            // seprate the values
+    let frute = [
+        'orange','apple','grape'
+        ];
+    console.log(frute.join("-"));
+        //push and pop()
+    var myfrd= new Array("Gnana","moorthy","Ranjith","nithish","guhan","cooken");
+    console.log(myfrd);
+    console.log(myfrd.length);
+    //inserting the book
+    var inserting = myfrd.push("hari","vishwa");
+    console.log(inserting);//push  and shft methods are throw the length of the the array
+    myfrd.push("sab");
+    console.log(myfrd.length);
+    //remove the book
+        var removing=myfrd.pop();
+        console.log(removing);
+        //console.log(removing.length); length 3 idk
+        console.log(myfrd);
+
+        //shift method->it will remove the first element of the array
+        var eatings = new Array("breakfast");
+        console.log(eatings);
+        var insert=eatings.push("lunch","dinner");
+        console.log(insert);
+
+        //let me creat one new variable for shit the value fro array
+        var grap = eatings.shift();
+        console.log(grap)
+        console.log(eatings);
+        //unshift ->it will add a item in the first place in the array
+        var usageof_unshift=eatings.unshift(grap);
+        console.log(usageof_unshift);
+        console.log(eatings);
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

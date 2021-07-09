@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array-Finding-an-Elemnts </title>
+    <script>
+        //if you want to find the element which is existed in the array or not.
+
+        //type-1
+        const cart=["laptop-bag","headset","pouch","watch"];
+        console.log(cart.indexOf("laptop-bag"));//0
+        //if you seeking the element that is not existed in arry
+
+        console.log(cart.indexOf("murunga-buji"));//if the output will -1 it is not existed in the array
+
+
+        //type-2
+        //if the value be it will throw true otherwish false
+        console.log(cart.indexOf("laptop-bag")!==-1);
+
+        //type-3
+        //
+        console.log(cart.includes("watch"));
+
+
+        //if there is two element existed with one name
+
+        let amazon=["watch","headset","lap","watch"];
+        console.log(amazon.indexOf("watch"));//if it found the element it will show further it won't check
+
+        //solution for two elements
+        let flipkat=["apple","orange","banana","apple"];
+        console.log(flipkat.lastIndexOf("apple"));//if it found the element it will show further it won't check
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

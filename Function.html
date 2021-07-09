@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+    <script>
+        //syntax
+        function functionname( par1,par2){
+        //    statment
+        }
+        function functionname(){
+            console.log("hello pgmer");
+        }
+        functionname();
+        functionname();
+        functionname();
+        functionname();
+        functionname();
+        //type 1
+        function f1(name,message){
+            console.log("hello "+name +"!"+message)
+        }
+        f1("dinesh","learn-program")
+        //type-2
+        function f2(name,message){
+           return "hello "+name +"!"+message;
+        }
+        var hold=f2("dinesh","learn-program");
+        console.log(hold);
+
+        function f3(name,message){
+            if(name){
+                return "hi"+name+message;
+            }
+            else{
+                return "hi, anonymous"+message;
+            }
+        }
+        var holder=f3(name="",message='why are you gay!');
+        console.log(holder);
+        //find the squaree of the number;
+        function square(num1){
+            return num1*num1;
+        }
+        console.log(square(2));
+        // input from user
+        function square(num1){
+            return num1*num1;
+        }
+        var num1=prompt("enter the number for square : ");
+        console.log(square(num1));
+</script>
+</head>
+<body>
+    
+</body>
+</html>

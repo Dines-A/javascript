@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array-methods</title>
+    <script>
+        //Array-methods.html
+        /*im using const here you think we can't change the value of const value 
+        //we are not changeing the value just we are adding value
+        we can't convert the variable type to another type 
+                ->here
+                    cart=0->it is an error
+        
+        */
+        const cart=["laptop-bag","headset","pouch","watch"];
+        console.log(cart);
+
+        //push-method->it will add the element at the end of the array
+       // cart.push("phone","panties");
+       // console.log(cart);
+
+        //unshitf->it will add the element at the end of the array
+        //cart.unshift("Pc");
+
+        //splice->it will add the element where you want
+        cart.splice(3,0,"bluetoothheadset");//idk if i use 1 instead of 0 nothing change;
+        /* here we are adding the value so we usedd the value "0"  */
+        console.log(cart);
+        let element=["aa","bb","cc"];
+        delete  element[0];
+        console.log(element);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

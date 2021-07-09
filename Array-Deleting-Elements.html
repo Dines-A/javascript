@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array-Deleting-Elements</title>
+    <script>
+        const ele=[
+            "1","2","3","4"
+        ];
+        //pop->is for remove the last element in array
+        store=ele.pop();//ele.pop is enough if you store the value in variable you can make sure what value is poped
+        console.log(ele); 
+        console.log(store);
+        //shitf->it will remove the first element from the array
+        const ele1=[
+            "1","2","3","4"
+        ];
+        ele1.shift();
+        console.log(ele1);
+        //splice->for delete the inbeteween values from array
+        const ele2=[ "1","2","3","4"];
+        ele2.splice(0,4);//->the first value is index value the sceond value is how mant element is going to deleted ofter the index
+        console.log(ele2);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

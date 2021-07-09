@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find an Element in Array(Reference)</title>
+    <script>
+        //
+        const flipkart =[
+            {
+                id:1,item:"iphone12",quantity:1
+            },
+            {
+                id:2,item:"iphone12pro",quantivy:1
+            },
+            {
+                id:3,item:"iphone-11",quantivy:1
+            },
+            {
+                id:4,item:"iphone-11pro",quantivy:1
+            },
+        ]
+        //call back function
+        let result=flipkart.find(function(Order){
+            return Order.item==="iphone12"
+        })
+
+        console.log(result);
+        let result1=flipkart.indexOf(function(Order){//idk why it showing -1 as he value
+            return Order.item==="iphone12"
+        })
+        console.log(result1);
+
+        
+        //task
+        let grosary=[
+            { 
+                id:1,item:"potato",k:1
+            },
+            {
+                id:2,item:"tomato",k:2
+            },
+        ]
+        store=grosary.indexOf(function(Order){//try indexof
+            return order.item==="potato"
+        })
+        console.log(store);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert,Prompt and Confirm</title>
+    <script>//alert->it shows only ok button
+        alert('welcome to learing js');
+        //prompt
+        var age =prompt("enter your age? ");//->get input from user
+        console.log(age);
+        //confirm->it shows "ok" "cancel" button
+        var responce=confirm("do you like to learing js?");
+       //alert(responce);
+        var age=prompt("Enter your age");
+        var parents_permission=confirm("do you have parents permission?");
+        if (age>=18 || parents_permission){
+            alert("Your  allowed to raid")
+        }
+       
+        else if(parents_permission){
+           alert("your allowed here");
+
+        }
+        else{
+            alert("Your not allowed to raid")
+        }
+    </script>
+</head>
+<body>
+    <h1>Alert,Prompt and Confirm</h1>
+</body>
+</html>

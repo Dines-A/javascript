@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incriment and deecriment Operators</title>
+    <script>
+        var result=10;
+
+        //post fix
+
+        console.log(result);//10
+        result++;
+        console.log(result);//11
+        result--;
+        console.log(result);//10 
+
+        //pre-fix
+        var result1=20;
+        console.log(result1);//20
+        ++result1;
+        console.log(result1);//21
+        --result1;
+        console.log(result1);//20
+
+        // here the example for uderstanding post and pre-fix operator
+        var _pre=100;
+
+        console.log(_pre);//100
+
+
+        //pre-fix
+        var preincriment=++_pre + 1;
+        console.log(preincriment);//102
+        console.log(_pre);//101
+        //post fix
+        var post_=200;
+        console.log(post_);//200
+        var postincrimet=post_++ + 1;//201
+        console.log(postincrimet);
+
+    </script>
+</head>
+<body>
+    <h1>
+        Incriment and deecriment Operators
+    </h1>
+</body>
+</html>

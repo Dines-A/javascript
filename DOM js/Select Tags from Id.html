@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro-select-by-<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro-select-Tag-from-Id</title>
+   
+   <style>
+input{
+    color: red;
+    border: 2px solid green;
+}
+
+   </style>
+</head>
+<body>
+    
+    
+    <h1>Intro-select-Tag-from-Id</h1>
+  
+    <input type="text" placeholder="Enter your id"><br><br>
+<div id="division">
+    <input type="text"  placeholder="Enter your name" ><br><br>
+    <input type="text"  placeholder="Enter your clg" ><br><br>
+    <input type="number"  placeholder="Enter your age" ><br><br>
+    <button onclick="check()">submit</button>
+   
+
+    <p>   </p>
+    <p>  </p>
+    <p>   </p>
+
+</div>
+<script> 
+        function check()
+    {
+        str=document.getElementById("division");
+        box=str.getElementsByTagName("input");
+        data=document.getElementsByTagName("p");
+
+        for(var i=0;i<box.length;i++){
+            data[i].innerHTML=box[i].value;//if you have multiple values go for this
+            console.log(data[i]);//it is form console checking 
+        }
+        //data[0].innerHTML=box[0].value;//without looping
+        //data[1].innerHTML=box[1].value;
+        //data[2].innerHTML=box[2].value;
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make the Array Empty</title>
+    <script>
+
+        
+        //type-1->use this preference no1
+        let alibaba=[1,2,3,4,5];
+        alibaba=[];
+        console.log(alibaba);//it will amke the array empty
+        
+        //type-2->use this preference no2
+        let alibaba1=[1,2,3,4,5];
+        alibaba1.length=0;
+        console.log(alibaba1);
+
+        //type-3 
+        let alibaba2=[1,2,3,4,5];
+        alibaba2.splice(0,alibaba2.length)
+        console.log(alibaba2);
+
+        //type-4 dont use this it will take such time to work
+        let alibaba3=[1,2,3,4,5];
+        while(alibaba3.length)
+        alibaba3.pop()
+        console.log(alibaba3);
+
+
+
+
+
+
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

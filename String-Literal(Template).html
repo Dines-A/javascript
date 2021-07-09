@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String-Literal(Template)</title>
+    <script>
+        //normal literal
+        const msg1="hello! how are you ";
+        console.log(msg1);
+        //space
+        const msg2="hello!\n how are you ";
+        console.log(msg2);
+        //tab
+        const msg3="hello! \thow are you ";
+        console.log(msg3);
+        //quotes 
+        const msg4="hello! \'how are you\' ";
+        console.log(msg4);
+        //
+        const msg5='hello! \"how are you\" ';
+        console.log(msg5);
+        //greeting
+        let name="Dinesh";
+        const msg6="hello!"+name+" how are you";
+        console.log(msg6);
+        //here the main part of the section
+        //it will print as typed by you
+        //""""Template literal""""
+        let namea="Dinesha";
+        const temp=`Hello! ${namea}   
+        How are you??`;//${this.namea}->this is undefind
+        console.log(temp);
+        
+    </script>
+</head>
+<body>
+    <h2>String-Literal.html</h2>
+</body>
+</html>

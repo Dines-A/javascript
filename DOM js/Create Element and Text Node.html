@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Element & Text Node</title>
+    <style>
+        div{
+            height: 90px;
+            width: 200px;
+            border: 2px solid yellow;
+            background-color: khaki;
+        }
+        div:hover{
+            border: 2px solid red;
+        }
+        input{
+            width: 197px;
+            text-align: center;
+            border: 1px solid yellow;
+            background-color: lemonchiffon;
+        }
+        input:hover{
+            border: 2px solid red;
+        }
+        button{
+            width: 200px;
+            border: 1px solid yellow;
+            background-color: rgb(145, 137, 70);
+        }
+    </style>
+</head>
+<body>
+    <h1>Create Element & Text Node</h1>
+    <div id="show">
+
+    </div>
+    <input type="text" placeholder="Type Anything" id="inputs"><br>
+    <button onclick="fun()">Submit</button>
+    <script>
+        //Don't working
+        function fun()
+        {
+            store=document.getElementById("inputs").value;
+            element=document.createElement("p");//<p>   </p>
+            text=document.createTextNode(store); //hi java script
+            element.appendChild(text); //<p> hi java script  </p>
+            showvar=document.getElementById("show");
+            showvar.appendChild(element);
+        }
+    </script>
+</body>
+</html>
