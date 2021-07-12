@@ -14,7 +14,7 @@
         }
 
         //object for in loop
-        // 
+        // idk it's not working
         let obj = {
             name:"Dinesh",
             age:21,
@@ -22,17 +22,11 @@
         }
 
 
-       for(let keyobj of Object.keys(obj))
+       for(let keyobj of obj)
        {
-           console.log(keyobj);
-           //it only show key pair
+           console.log(keyobj +":"+obj[keyobj]);
        }
-       
-       for(let keyobj of Object.entries(obj))
-       {
-        //    it show key :value pair 
-           console.log(keyobj);
-       }
+
 
       
 
