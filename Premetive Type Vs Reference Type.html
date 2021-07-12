@@ -7,9 +7,6 @@
     <title>Premetive Type Vs Reference Type</title>
     <script>
 
-
-
-
         //Premetive Type 
         let myAge=20;//2020
         let myAgeWas=myAge;//2020
@@ -18,15 +15,16 @@
         console.log("myAgeWas",myAgeWas);
 
         //Reference Type
-        let Obj2={
-            x:20
-        };
-    
-        function Obj2(){
-            Obj2++;
-        }
-
+        let Obj2={x:10};
+        
         console.log(Obj2);
+
+        let Obj3=Obj2;
+
+        console.log(Obj3);
+
+        Obj2.x=100;
+// ensure the value in consloe by typing
 
     </script>
 </head>
