@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OOPS</title>
     <script>
-        //static type oops
+        //static type oops => which means value are const 
        let person1={
         name:"dinesh a",
         age:20,
@@ -18,10 +18,19 @@
             bro:"a",
             sis:"aa"
         },
-        //fun1: function()
+
+/* 
+function fun1()
+ {
+ let msg=`i'm ${this.name} ${this.age} and im currently studing at ${this.clg} and i wiil be as a${this.job}`;
+ console.log(msg);
+ }
+  */
+
            fun1 :function (){
-        
-            let msg=`i'm ${this.name} ${this.age} and im currently studing at ${this.clg} and i wiil be as a${this.job}`;
+// ${} =>dynamic type values ku edhu use pananu
+// this. => object kulla irukura value va access panum bodu use pananu.
+            let msg=`i'm ${this.name} ${this.age} and im currently studing at ${this.clg} and i wiil be as a ${this.job}`;
             console.log(msg);
         }
     };
