@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+    <script>
+        var im={
+            name:"dinesh",
+            roll_no:"191ei117",
+            clg:"bit",
+        };
+
+        console.log(im);
+        // we can create the object inside the object
+       let person={
+        name:"dinesh a",
+        age:20,
+        clg:"bit",
+        issmoking:false,
+        job:undefined,//if you mention nothing it will take as a undefind
+        salary:null,
+        sibiling:{
+            bro:"vjs",
+            sis:"rashmika"
+        }
+       };
+       console.log(person);
+       console.log(typeof(person)); //object
+       //we can change the value of the key but,we can't change the key ,
+       console.log(person.age);//dot notation
+       console.log(person.age=21);
+       console.log(person["name"]="dinesh_abubakar");//bracket notation
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
