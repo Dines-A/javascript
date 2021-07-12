@@ -13,10 +13,8 @@
         };
 
         console.log(im);
-        var num1=1;
-        console.log( num1);
+        // we can create the object inside the object
        let person={
-            //
         name:"dinesh a",
         age:20,
         clg:"bit",
@@ -24,23 +22,17 @@
         job:undefined,//if you mention nothing it will take as a undefind
         salary:null,
         sibiling:{
-            bro:"a",
-            sis:"aa"
+            bro:"vjs",
+            sis:"rashmika"
         }
        };
        console.log(person);
-/*
-this things are done in console
-person.age
-20
-person.age=21
-21
-person
-{name: "dinesh a", age: 21, clg: "bit", issmoking: false, job: undefined, …}
-person["name"]="dinesh_abubakar"
-"dinesh_abubakar"
-person
-{name: "dinesh_abubakar", age: 21, clg: "bit", issmoking: false, job: undefined, …*/
+       console.log(typeof(person)); //object
+       //we can change the value of the key but,we can't change the key ,
+       console.log(person.age);//dot notation
+       console.log(person.age=21);
+       console.log(person["name"]="dinesh_abubakar");//bracket notation
+
     </script>
 </head>
 <body>
