@@ -14,7 +14,7 @@
         }
 
         //object for in loop
-        // idk it's not working
+        // 
         let obj = {
             name:"Dinesh",
             age:21,
@@ -22,11 +22,22 @@
         }
 
 
-       for(let keyobj of obj)
+       for(let keyobj of Object.keys(obj))
        {
-           console.log(keyobj +":"+obj[keyobj]);
+           console.log(keyobj);
+           //it only show key pair
        }
-
+       
+       for(let keyobj of Object.entries(obj))
+       {
+        //    it show key :value pair 
+           console.log(keyobj);
+       }
+       //to find the key existed or what
+       if ("name" in obj)
+       {
+           console.log("True");
+       }
 
       
 
