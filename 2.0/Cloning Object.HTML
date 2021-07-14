@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copying-The-Object</title>
     <script>
-
+/* spread operator and clone are similar  */
     //primary objcet
 
         const person={
@@ -22,13 +22,17 @@
 
         //type->2
 
-       // let personObj=Objcet.assign({},person);//not working if you want to add any key you can add here 
-        // let personObj=Objcet.assign({age :21,clg:"bit"},person);
-       // console.log(personObj);
-        //spread operator after ES6 version 
-
+        
         let spread={...person};
         console.log(spread);
+
+
+        // let personObj=Objcet.assign({},person);//not working if you want to add any key you can add here 
+         // let personObj=Objcet.assign({age :21,clg:"bit"},person);
+        // console.log(personObj);
+         //spread operator after ES6 version 
+
+        
     </script>
 </head>
 <body>
