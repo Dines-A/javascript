@@ -6,7 +6,8 @@
         function functionname()
         {
             console.log("hello pgmer");
-        }
+        };
+        
         functionname();
         functionname();
 
