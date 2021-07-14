@@ -1,9 +1,9 @@
-/* 
-Iterating Array(Foreach)
-foreach loop like
-for in
-for of 
-*/
+    /* 
+    Iterating Array(Foreach)
+    foreach loop like
+    for in
+    for of 
+    */
 const myWork =["Wake-up","Eat","Work","Sleep"];
 
 //for in loop
@@ -23,9 +23,12 @@ for(let forof of myWork)
 //foreach loop 
 
 myWork.forEach(function(mydailyworks,workindex) 
-/* mydailyworks-> it contain value of myWork if you just wanna value use this 
-    workindex-> it contain index of myWork if you just wanna index value use this 
- */
+
+        /* 
+        mydailyworks-> it contain value of myWork if you just wanna value use this 
+        workindex-> it contain index of myWork if you just wanna index value use this 
+        */
+
 {
     console.log(workindex,mydailyworks);
 })
@@ -33,3 +36,4 @@ myWork.forEach(function(mydailyworks,workindex)
 //foreach loop in arrow function
 
 myWork.forEach((mydailyworks,workindex)  =>  console.log(workindex,mydailyworks))
+
