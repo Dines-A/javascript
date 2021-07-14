@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Factory-Function</title>
-    <script>
+
         // continues of OOPS
         //factory function
 
     function createperson(name,age)
     {
     return {
-        name,//name->name=name
+        name,//name->name:name
         age,
         fun1 :function(){
             let msg=`im ${this.name} ,and ${this.age}`;
@@ -21,6 +14,7 @@
     }}}
         //let dinesh=createperson("dinesh",20);
         //dinesh.fun1()
+        
         createperson("dinesh",20).fun1();
         createperson("ex",20).fun1();
         createperson("exx",20).fun1();
@@ -44,16 +38,10 @@
         }
 
     }}
-createperson1("dinesh",20).greeting();
-createperson1("ex",20).greeting();
-createperson1("exx",20).greeting();
-createperson1("exxx",20).greeting();
+    createperson1("dinesh",20).greeting();
+    createperson1("ex",20).greeting();
+    createperson1("exx",20).greeting();
+    createperson1("exxx",20).greeting();
 
-</script>
-</head>
-<body>
-    
-</body>
-</html>
 
 

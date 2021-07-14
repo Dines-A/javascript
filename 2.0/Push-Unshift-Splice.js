@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Push-Unshift-Splice</title>
 
-    <script>
         const wishlist=["mouse","keyboard","plug","table"];
         //push ->it will add the element at the last of the array
         console.log(wishlist);
@@ -18,9 +10,3 @@
         //splice
         wishlist.splice(3,0,"oneplus 9t","mousepad");
         console.log(wishlist);
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

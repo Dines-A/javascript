@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dymanic nature of Objectd</title>
-    <script>
+
         const person={
             name:"dinesh"
         }
@@ -15,9 +8,3 @@
         person.job="ex-google";
         delete person.job//you can delet the object
         console.log(person);
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Array</title>
-    <script>
 
     //array is a object data type array is not homogeneous in javascript ..Arrays in JavaScript are heterogeneous. 
 
     //this is literal syntax
+
     var mycolorballs=[ 'red','green','orange','gold'];
     
     console.log(mycolorballs);//we can change the array value bcz js is a dynamicaly typed language
@@ -17,6 +10,7 @@
     mycolorballs[4]='blue';
     console.log(mycolorballs);
     console.log(mycolorballs.length);
+
     //this is constractor syntax
 
     // array speeling starts with  ***Array****
@@ -39,20 +33,14 @@
     console.log(lang instanceof Array); // if there are multiple lang file exist it will not show acctual value
     console.log(Array.isArray(lang));
 
-//
-let lang1=['tamil','english','hindi','french','japneesh'];
-console.log(lang1);
-console.log(lang1.length);
-lang1[6]="kanada";
-console.log(lang1.length);
-console.log(lang1.sort());//it will arrange the array by alphabetical order 
-
-const home =new Array();
-homo =[191,"Dinesh",true,"BIT"];
-console.log(homo);
-</script>
-</head>
-<body>
     
-</body>
-</html>
+    let lang1=['tamil','english','hindi','french','japneesh'];
+    console.log(lang1);
+    console.log(lang1.length);
+    lang1[6]="kanada";
+    console.log(lang1.length);
+    console.log(lang1.sort());//it will arrange the array by alphabetical order 
+
+    const home =new Array();
+    homo =[191,"Dinesh",true,"BIT"];
+    console.log(homo);

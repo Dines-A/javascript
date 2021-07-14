@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script>
+
         const marks = [49,50,34,35,79,98];
         console.log(marks);
         //map
@@ -27,11 +20,3 @@
 
         const total = marks.reduce((accumulator,currentValue)=>accumulator+currentValue);
         console.log(total);
-    </script>
-</head>
-<body>
-    <h1>
-        Map Reduce Filter
-    </h1>
-</body>
-</html>

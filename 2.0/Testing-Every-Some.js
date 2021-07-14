@@ -17,22 +17,22 @@ let issomeAdult=everyage.some(function(age,index,array)
     return age>=18
 })
 
-console.log(issomeAdult);
+// console.log(issomeAdult);
 
 
 
 
-// did by myself 
+// did by myself  array inside object aren't acceptable in every some method
 
-/* let objage = {
-    name:["dinesh","abo","pavi"],
-    age:[20,18,17],
-    std:[12,11,13,14]
-}
-// console.log(objage.age);
+let objage = [
+    {id:1,name:"Dinesh",age:20},
+    {id:2,name:"abo",age:17},
+    {id:3,name:"pvi",age:18},
+    {id:4,name:"luna",age:23}]
 
-let objeveryage=objage.every(function(value,index)
+let objeveryage=objage.every(function(value)
 {
-    console.log(value);
-}) */
+    return value.age >=18
+})
 
+console.log(objeveryage);

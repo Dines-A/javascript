@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mixed data in object</title>
-    <script>
+
         let mixed={
             name : 'Dinesh',
             age : 20,
@@ -21,9 +14,3 @@
         console.log(mixed);
         mixed.welcome();
         mixed.welcomenormal();
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Copying-The-Object</title>
-    <script>
+
 /* spread operator and clone are similar  */
     //primary objcet
 
@@ -33,9 +26,3 @@
          //spread operator after ES6 version 
 
         
-    </script>
-</head>
-<body>
-    
-</body>
-</html>

@@ -30,7 +30,7 @@ let mystateslug=splitmyState.join("_");
 
 console.log(mystateslug);
 
-
+// split
 
 let myStatelower ="Tamil Nadu india".toLocaleLowerCase();
 
