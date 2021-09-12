@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="bootstrap-5/css/bootstrap.min.css">
+    <script src="bootstrap-5/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5\js\Jquery\jquery.min.js"></script>
+
+    <script src="./Crash1.js"></script>
+    
+</head>
+<body>
+
+   <div class="container">
+       <h3>
+           From creation
+       </h3>
+    <div class="row my-5">
+        <div class="col-12 col-sm-12 col-md-12 ">
+            <div class="card">
+                <div class="card-header">
+                    <h3>
+                        contact
+                    </h3>
+
+                </div>
+                <form action="#" method="post"class="bg-dark text-white" >
+                    <div class="card-body">
+                        <div class="form-group my-3">
+                            <label for="name">Name</label>
+                            <input type="text"  class="form-control mt-2" name="username" id="name" placeholder="Enter your name" >
+                        </div>
+                        <div class="form-group my-3">
+                            <label for="number">Number</label>
+                            <input type="number" class="form-control mt-2" name="usernumber" id="number" placeholder="Enter your password">
+                        </div>
+                        <div class="form-group my-3">
+                            <label for="email">E-mail</label>
+                            <input type="email"  class="form-control mt-2" name="useremail" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="from-group my-3 ">
+                            <label for="mysocial">social_media</label>
+                            <select name="social_media" id="mysocial" class="form-control mt-2 ">
+                                <option value="__select__" >__select__</option>
+                                <option value="instagram" >instagram</option>
+                                <option value="facebook" >facebook</option>
+                                <option value="twitter" >twitter</option>
+                            </select>
+                        </div>
+                        <div class="from-group my-3">
+                            <label for="text-area">comments</label>
+                            <textarea name="comments" id="text-area"   class="form-control mt-2" ></textarea>
+                        </div>
+                        <div class="from-group">
+                            <div class="from-check">
+                                <input type="checkbox" name="agreements" id="accept" class="from-controll">
+                                <label for="accept" class="from-check-label"> i accept the term and contitions</label>
+                            </div>
+                        </div>
+                       <div class="form-group d-grid">
+                        <button type="submit" class="btn btn-primary ">submit</button>
+                       </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+   </div>
+</body>
+</html>

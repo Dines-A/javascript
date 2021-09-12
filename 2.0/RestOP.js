@@ -1,5 +1,5 @@
 // this rest operator get the value in array format 
-
+// refer cloing-object.js
 // ... expences must be in a last parameter 
 
 function add1(...expences)
